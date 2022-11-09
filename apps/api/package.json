@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-documentation": "^4.4.7",
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-seo": "^1.7.7",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/provider-upload-aws-s3": "^4.4.7",
+    "@strapi/strapi": "4.3.6",
+    "better-sqlite3": "7.4.6",
+    "mysql": "^2.18.1",
+    "strapi-plugin-navigation": "^2.2.2",
+    "strapi-plugin-sitemap": "^2.0.8"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a7ab6f9e-1e29-4c71-9f99-06a4d15b4c61"
+  },
+  "packageManager": "yarn@1.22.19",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "license": "MIT"
+}
